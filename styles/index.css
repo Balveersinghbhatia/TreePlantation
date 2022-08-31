@@ -2,9 +2,20 @@
   /* width: 90vw; */
   /* height: auto; */
 }
-#slider {
-}
 
 #about-us {
   background-color: greenyellow !important;
+}
+
+#header {
+  z-index: 3;
+  position: relative;
+}
+#header nav a {
+  color: white;
+}
+
+#slider {
+  margin-top: -8.5vh;
+  z-index: -1;
 }

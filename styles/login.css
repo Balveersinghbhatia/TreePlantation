@@ -1,0 +1,18 @@
+#form-container {
+  width: 30vw;
+  /* background: dodgerblue !important; */
+  margin: 6vh auto;
+}
+
+label {
+  font-weight: bold !important;
+  font-size: 2.5vh;
+}
+input {
+  font-size: 2vh;
+}
+@media screen and (max-width: 550px) {
+  #form-container {
+    width: 90vw;
+  }
+}
